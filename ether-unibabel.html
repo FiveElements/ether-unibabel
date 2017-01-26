@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`ether-unibabel`
+Polymer unibabel lib wrapper
+
+@demo demo/index.html 
+-->
+
+<dom-module id="ether-unibabel">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'ether-unibabel',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'ether-unibabel',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
